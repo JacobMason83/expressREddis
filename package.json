@@ -1,0 +1,20 @@
+{
+  "name": "reddis-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Jacob Mason <jmason062083@gmail.com> (https://github.com/JacobMason83)",
+  "license": "ISC"
+}
